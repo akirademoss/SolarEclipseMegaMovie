@@ -19,6 +19,6 @@ Software objectives:
 *Calibrate GPS for coordinate precision. 
 *Calculate eclipse contact times  
 *Automatized “burst” images at fixed exposure 20 seconds before and after totality.   
-*iterate bracketed images: a “bracket” consisting of 5 images taken at varying exposure times  
+*iterate bracketed images: a “bracket” consisting of 5 images taken at varying exposure times  [left for future research]
 *Reminder message to remove filter 5 seconds before and after totality  
 *Camera capture rate to 1  FPS. Real time GUI updates

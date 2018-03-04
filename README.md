@@ -16,9 +16,11 @@ Eclipse Megamovie project crowdsources scientifically valuable images
 of the solar corona from volunteers and amateur astronomers.
 
 Software objectives:  
+*Easy to use Graphical User Interface
+*Real time GUI updates
 *Calibrate GPS for coordinate precision. 
 *Calculate eclipse contact times  
 *Automatized “burst” images at fixed exposure 20 seconds before and after totality.   
-*iterate bracketed images: a “bracket” consisting of 5 images taken at varying exposure times  [left for future research]
+*iterate bracketed images: a “bracket” 
 *Reminder message to remove filter 5 seconds before and after totality  
-*Camera capture rate to 1  FPS. Real time GUI updates
+*Camera capture rate at least 1 FPS.

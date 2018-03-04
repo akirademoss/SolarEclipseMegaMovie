@@ -17,10 +17,17 @@ of the solar corona from volunteers and amateur astronomers.
 
 Software objectives:  
 *Easy to use Graphical User Interface
+
 *Real time GUI updates
+
 *Calibrate GPS for coordinate precision
+
 *Calculate eclipse contact times  
+
 *Automatized “burst” images at fixed exposure 20 seconds before and after totality
+
 *iterate bracketed images: a “bracket” 
+
 *Reminder message to remove filter 5 seconds before and after totality 
+
 *Camera capture rate at least 1 FPS

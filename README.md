@@ -1,4 +1,4 @@
-# Solar_Eclipse_MegaMovie
+# Solar Eclipse MegaMovie
 This projected was funded by grant No. AGS-14612277 and conducted under PI 
 Juan Carlos Martinez Oliveroz and co-PI Laura Peticolas
 at UC Berkeley Space Sciences Lab
@@ -16,18 +16,11 @@ Eclipse Megamovie project crowdsources scientifically valuable images
 of the solar corona from volunteers and amateur astronomers.
 
 Software objectives:  
-*Easy to use Graphical User Interface
-
-*Real time GUI updates
-
-*Calibrate GPS for coordinate precision
-
-*Calculate eclipse contact times  
-
-*Automatized “burst” images at fixed exposure 20 seconds before and after totality
-
-*iterate bracketed images: a “bracket” 
-
-*Reminder message to remove filter 5 seconds before and after totality 
-
-*Camera capture rate at least 1 FPS
+* Easy to use Graphical User Interface
+* Real time GUI updates
+* Calibrate GPS for coordinate precision
+* Calculate eclipse contact times  
+* Automatized “burst” images at fixed exposure 20 seconds before and after totality
+* Iterate bracketed images: a “bracket” 
+* Reminder message to remove filter 5 seconds before and after totality 
+* Camera capture rate at least 1 FPS

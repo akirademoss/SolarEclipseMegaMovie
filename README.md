@@ -15,7 +15,7 @@ citizen scientists.
 Eclipse Megamovie project crowdsources scientifically valuable images 
 of the solar corona from volunteers and amateur astronomers.
 
-Software objectives:  
+**Software objectives:**  
 * Easy to use Graphical User Interface
 * Real time GUI updates
 * Calibrate GPS for coordinate precision

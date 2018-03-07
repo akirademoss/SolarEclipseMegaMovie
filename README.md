@@ -106,7 +106,7 @@ This README was created for the purpose of demonstrating the capabilities of the
 
 [2] The actual screenshot in the monitor background is taken using VNC viewer.  Because the camera preview is displayed using the raspberry pi's GPU, you will not be able to view the the camera preview in VNC viewer.  This is just to demonstrate how the camera preview would look on the raspberry pi.
 
-[3] **References information found on this page** http://www.informit.com/articles/article.aspx?p=1405544&seqNum=3
+[3] References information found on this page: http://www.informit.com/articles/article.aspx?p=1405544&seqNum=3
 
 [4] Regaurding the first footnote, the intended image capture sequence would be 1/125, 1/60, 1/30, 1/2, 1.  This will produce images that gradually become brighter.
 

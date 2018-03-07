@@ -3,12 +3,7 @@ This projected was funded by grant No. AGS-14612277 and conducted under PI
 Juan Carlos Martinez Oliveroz and co-PI Laura Peticolas
 at UC Berkeley Space Sciences Lab
 
-
-<div style="text-align:center" markdown="1">
-
-![Alt Text](/path/to/image "Caption")
-
-</div>
+<h3 style="text-align: center;" markdown="1">This is a level 3 heading.</h3>
 
 This software was developed for a raspberry pi 3, and picamera module v2.1 
 to automatatize photography of the total solar eclipse of August 21, 2017.

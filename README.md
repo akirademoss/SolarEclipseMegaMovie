@@ -25,6 +25,8 @@ of the solar corona from volunteers and amateur astronomers.
 * Reminder message to remove filter 5 seconds before and after totality 
 * Camera capture rate at least 1 FPS
 
+# Overview
+Note that the images displayed in this README are from the 1st version of source code produced.  The source provided in this repository is the 2nd version of the code.  Upgrades include a second text display window that allows you to view the time precision and take eclipse status symultaneously.  Additionally formatting of datetime and exposure times during the Take Eclipse execution is improved to produce clarity for the user.  
 
 # Required Hardware 
 
@@ -69,33 +71,35 @@ of the solar corona from volunteers and amateur astronomers.
 
 ![sleeping](https://user-images.githubusercontent.com/8731829/37075272-a948524c-2196-11e8-9ee1-b6b89bd03309.JPG)
 
-**Figure 6:**  Program will check every second to see if the clock indicates the time (totality - 20 seconds) computed in the Contact Times phase of the program.  Until time (totality time - 20 seconds) is reached, the program indicates it is sleeping.
+**Figure 6:**  Program will check every second to see if the clock indicates the time (2nd contact - 20 seconds) computed in the Contact Times phase of the program.  Until time (2nd contact - 20 seconds) is reached, the program indicates it is sleeping.
 
 ## Burst Capture Sequence
 
 ![take-out-filter](https://user-images.githubusercontent.com/8731829/37075310-e4f65a50-2196-11e8-81f2-34fe3f09744e.jpg)
 
-**Figure 7:**  Once the indicated time is reached, the program automates the camera to take photographs in burst mode at a fixed exposure rate of 1/1000 seconds.  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.
+**Figure 7:**  Once the indicated time is reached, the program automates the camera to take photographs in a burst capture sequence at fixed exposure times of 1/1000 seconds.  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.
 
 ![burst movie reel](https://user-images.githubusercontent.com/8731829/37075425-5de2974e-2197-11e8-8cc4-d9dabd74d475.png)
 
-**Figure 7:**  Sample of images captured during a test at Charbot Space Center in Oakland, California.  Note that actual exposure times in this photo may be different, this is simply for conceptual purposes.
+**Figure 7:**  Sample of images captured during a test at Charbot Space Center in Oakland, California.  Note that actual exposure times in this photo may be different, this is simply for demonstration purposes.  Actual images are saved in RAW format.
 
 ## Bracketed Capture Sequence
 
 ![aeb](https://user-images.githubusercontent.com/8731829/37075338-02ffb406-2197-11e8-9e3b-e85340b110a7.JPG)
 
-**Figure 8:**
+**Figure 8:**  Once the 2nd contact time is reached, the program automates the camera to take photographs in a bracketed capture sequence at iterated exposure rates.  In the GUI image, the print out indicates images being taken at exposure times of 1/125, 1/60, 1/30, 1, and 1/2 seconds.  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.  The screen will also send a notification 5 before the 3rd conact time to notify the user to put the filter back on, as it will finally take photographs in the burst capture sequence for 20 more seconds.
 
 ![bracketing movie reel](https://user-images.githubusercontent.com/8731829/37075440-68ff1df0-2197-11e8-9987-70d1f52f7e7e.png)
 
-**Figure 9:**
+**Figure 9:**  Here is a demonstration of what the Bracked image sequence will produce.  The idea is to capture the full dynamic range by allowing varying amounts of light, and later forming a composite image to produce an image similar to what the eclipse would look like in person.
 
-# Understanding the Qt framework
+# Test Screen Demonstration
 
+![gui cam preview example](https://user-images.githubusercontent.com/8731829/37075741-d854f49e-2198-11e8-944d-91428cc92fed.png)
 
+**Figure 10:**  Example of what camera preview would display on the monitor.  Note: actual screenshot is taken using VNC viewer.  Because the camera preview is displayed using the raspberry pi's GPU, you will not be able to view the the camera preview in VNC viewer.  This is just to demonstrate how the camera preview would look on the raspberry pi.
 
-
+# Source Cited
 
 [1] http://www.informit.com/articles/article.aspx?p=1405544&seqNum=3
 

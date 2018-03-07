@@ -26,7 +26,7 @@ of the solar corona from volunteers and amateur astronomers.
 * Camera capture rate at least 1 FPS
 
 # Overview
-Note that the images displayed in this README are from the 1st version of source code produced.  The source provided in this repository is the 2nd version of the code.  Upgrades include a second text display window that allows you to view the time precision and take eclipse status symultaneously.  Additionally formatting of datetime and exposure times during the Take Eclipse execution is improved to produce clarity for the user.  
+Note that the images displayed in this README are from the 1st version of source code produced.  The source provided in this repository is the 2nd version of the code.  Upgrades include a second text display window that allows you to view the time precision and take eclipse status symultaneously.  Additionally formatting of datetime and exposure times during the Take Eclipse execution is improved to produce clarity for the user. [1] 
 
 # Required Hardware 
 
@@ -87,7 +87,7 @@ Note that the images displayed in this README are from the 1st version of source
 
 ![aeb](https://user-images.githubusercontent.com/8731829/37075338-02ffb406-2197-11e8-9e3b-e85340b110a7.JPG)
 
-**Figure 8:**  Once the 2nd contact time is reached, the program automates the camera to take photographs in a bracketed capture sequence at iterated exposure rates.  In the GUI image, the print out indicates images being taken at exposure times of 1/125, 1/60, 1/30, 1, and 1/2 seconds.  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.  The screen will also send a notification 5 before the 3rd conact time to notify the user to put the filter back on, as it will finally take photographs in the burst capture sequence for 20 more seconds.
+**Figure 8:**  Once the 2nd contact time is reached, the program automates the camera to take photographs in a bracketed capture sequence at iterated exposure rates.  In the GUI image, the print out indicates images being taken at exposure times of 1/125, 1/60, 1/30, 1, and 1/2 seconds.[2]  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.  The screen will also send a notification 5 before the 3rd conact time to notify the user to put the filter back on, as it will finally take photographs in the burst capture sequence for 20 more seconds.
 
 ![bracketing movie reel](https://user-images.githubusercontent.com/8731829/37075440-68ff1df0-2197-11e8-9987-70d1f52f7e7e.png)
 
@@ -98,6 +98,12 @@ Note that the images displayed in this README are from the 1st version of source
 ![gui cam preview example](https://user-images.githubusercontent.com/8731829/37075741-d854f49e-2198-11e8-944d-91428cc92fed.png)
 
 **Figure 10:**  Example of what camera preview would display on the monitor.  Note: actual screenshot is taken using VNC viewer.  Because the camera preview is displayed using the raspberry pi's GPU, you will not be able to view the the camera preview in VNC viewer.  This is just to demonstrate how the camera preview would look on the raspberry pi.
+
+# Footnotes
+
+[1] In the Bracketed Image Capture Sequence subsection of Take Eclipse the expose time above the image file captured is displaying only the denominator of the exposure time.  Dividing 1 by the value printed is what the program is actually doing. 
+
+[2] Regaurding the first footnote, the intended image capture sequence would be 1/125, 1/60, 1/30, 1/2, 1.  This will produce images that gradually become brighter.
 
 # Source Cited
 

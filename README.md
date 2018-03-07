@@ -67,9 +67,30 @@ of the solar corona from volunteers and amateur astronomers.
 
 # Take Eclipse
 
+## Burst Capture Sequence
+
 ![sleeping](https://user-images.githubusercontent.com/8731829/37075272-a948524c-2196-11e8-9ee1-b6b89bd03309.JPG)
 
-**Figure 6:**  Program will check every second to see if the clock indicates the time of the 2nd contact, indicated by the Contact Times button.  
+**Figure 6:**  Program will check every second to see if the clock indicates the time (totality - 20 seconds) computed in the Contact Times phase of the program.  Until time (totality time - 20 seconds) is reached, the program indicates it is sleeping.
+
+
+![take-out-filter](https://user-images.githubusercontent.com/8731829/37075310-e4f65a50-2196-11e8-81f2-34fe3f09744e.jpg)
+
+**Figure 7:**  Once the indicated time is reached, the program automates the camera to take photographs in burst mode at a fixed exposure rate of 1/1000 seconds.  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.
+
+![burst movie reel](https://user-images.githubusercontent.com/8731829/37075425-5de2974e-2197-11e8-8cc4-d9dabd74d475.png)
+
+**Figure 7:**  Sample of images captured during a test at Charbot Space Center in Oakland, California.  Note that actual exposure times in this photo may be different, this is simply for conceptual purposes.
+
+## Bracketed Capture Sequence
+
+![aeb](https://user-images.githubusercontent.com/8731829/37075338-02ffb406-2197-11e8-9e3b-e85340b110a7.JPG)
+
+**Figure 8:**
+
+![bracketing movie reel](https://user-images.githubusercontent.com/8731829/37075440-68ff1df0-2197-11e8-9987-70d1f52f7e7e.png)
+
+**Figure 9:**
 
 # Understanding the Qt framework
 

@@ -69,7 +69,7 @@ of the solar corona from volunteers and amateur astronomers.
 
 ![sleeping](https://user-images.githubusercontent.com/8731829/37075272-a948524c-2196-11e8-9ee1-b6b89bd03309.JPG)
 
-**Figure 7:**
+**Figure 6:**  Program will check every second to see if the clock indicates the time of the 2nd contact, indicated by the Contact Times button.  
 
 # Understanding the Qt framework
 

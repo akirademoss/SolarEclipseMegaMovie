@@ -114,7 +114,11 @@ This README was created for the purpose of demonstrating the capabilities of the
 [4] Regaurding the first footnote, the intended image capture sequence would be 1/125, 1/60, 1/30, 1/2, 1.  This will produce images that gradually become brighter.
 
 
+# Credits 
 
+- [Akira Demoss](https://github.com/akirademoss
+- Juan Carlos Martínez Oliveros
+- Siuling Pau
 
 
 

@@ -116,7 +116,7 @@ This README was created for the purpose of demonstrating the capabilities of the
 
 # Credits 
 
-- [Akira Demoss](https://github.com/akirademoss
+- [Akira Demoss](https://github.com/akirademoss)
 - Juan Carlos Martínez Oliveros
 - Siuling Pau
 

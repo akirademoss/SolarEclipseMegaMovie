@@ -5,6 +5,16 @@ at UC Berkeley Space Sciences Lab
 
 <h3 style="text-align: center;" markdown="1">This is a level 3 heading.</h3>
 
+<p align="center">
+  <h3>Some Links:</h3><h3>
+  <a href="#">Link 1</a> |
+  <a href="#">Link 2</a> |
+  <a href="#">Link 3</a>
+  <br><br>
+  <img src="http://s.4cdn.org/image/title/105.gif">
+</p>
+
+
 This software was developed for a raspberry pi 3, and picamera module v2.1 
 to automatatize photography of the total solar eclipse of August 21, 2017.
 The total solar eclipse 

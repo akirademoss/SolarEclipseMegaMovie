@@ -47,12 +47,18 @@ of the solar corona from volunteers and amateur astronomers.
 
 **Figure 4:** After collecting GPS positions and storing to .dat files for 1 minute, the program then computes the average of the last 20 saved positions to complete the calibration.  
 
+# Time Precision
+
 ![times precision data](https://user-images.githubusercontent.com/8731829/37077481-cf12c020-21a0-11e8-9a83-197f9d1699d0.JPG)
 **Figure 5:**
+
+# Contact Times
 
 ![jitter format2](https://user-images.githubusercontent.com/8731829/37075221-6ab57f00-2196-11e8-8a54-be2d6ba191fd.JPG)
 
 **Figure 6:**
+
+# Take Eclipse
 
 ![sleeping](https://user-images.githubusercontent.com/8731829/37075272-a948524c-2196-11e8-9ee1-b6b89bd03309.JPG)
 **Figure 7:**

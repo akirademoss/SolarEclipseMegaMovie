@@ -51,18 +51,18 @@ of the solar corona from volunteers and amateur astronomers.
 **Figure 4:** After collecting GPS positions and storing to .dat files for 1 minute, the program then computes the average of the last 20 saved positions to complete the calibration.  
 
 
-# Time Precision
+# Contact Times
 
 ![times precision data](https://user-images.githubusercontent.com/8731829/37077481-cf12c020-21a0-11e8-9a83-197f9d1699d0.JPG)
 
-**Figure 6:**  After GPS is taken, it is possible to view the Time Pr
+**Figure 6:**  After GPS is calibrated, we use the calibrated postion to compute the contact times of the total solar eclipse.  Note that in this example for the 2017 eclipse, totality did not occur.  This sample was used for testing purposes.  To simulate the eclipse, we plugged in positions that were located along the path of totality, and manually configured the clock time used to automate image capture sequences.
 
 
-# Contact Times
+# Time Precision
 
 ![jitter format2](https://user-images.githubusercontent.com/8731829/37075221-6ab57f00-2196-11e8-8a54-be2d6ba191fd.JPG)
 
-**Figure 5:**
+**Figure 5:**  Here we are displaying the clock jitter.  The idea behind this function is to encourage the user to set-up early, as the general trend is that the jitter will decrease with time as the clock signal synchronizes with the sattelite clock.
 
 
 # Take Eclipse

@@ -67,12 +67,11 @@ of the solar corona from volunteers and amateur astronomers.
 
 # Take Eclipse
 
-## Burst Capture Sequence
-
 ![sleeping](https://user-images.githubusercontent.com/8731829/37075272-a948524c-2196-11e8-9ee1-b6b89bd03309.JPG)
 
 **Figure 6:**  Program will check every second to see if the clock indicates the time (totality - 20 seconds) computed in the Contact Times phase of the program.  Until time (totality time - 20 seconds) is reached, the program indicates it is sleeping.
 
+## Burst Capture Sequence
 
 ![take-out-filter](https://user-images.githubusercontent.com/8731829/37075310-e4f65a50-2196-11e8-81f2-34fe3f09744e.jpg)
 

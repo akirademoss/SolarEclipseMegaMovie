@@ -97,13 +97,15 @@ Note that the images displayed in this README are from the 1st version of source
 
 ![gui cam preview example](https://user-images.githubusercontent.com/8731829/37075741-d854f49e-2198-11e8-944d-91428cc92fed.png)
 
-**Figure 10:**  Example of what camera preview would display on the monitor.  Note: actual screenshot is taken using VNC viewer.  Because the camera preview is displayed using the raspberry pi's GPU, you will not be able to view the the camera preview in VNC viewer.  This is just to demonstrate how the camera preview would look on the raspberry pi.
+**Figure 10:**  Example of what camera preview would display on the monitor. [3]
 
 # Footnotes
 
 [1] In the Bracketed Image Capture Sequence subsection of Take Eclipse the expose time above the image file captured is displaying only the denominator of the exposure time.  Dividing 1 by the value printed is what the program is actually doing. 
 
 [2] Regaurding the first footnote, the intended image capture sequence would be 1/125, 1/60, 1/30, 1/2, 1.  This will produce images that gradually become brighter.
+
+[3] The actual screenshot in the monitor background is taken using VNC viewer.  Because the camera preview is displayed using the raspberry pi's GPU, you will not be able to view the the camera preview in VNC viewer.  This is just to demonstrate how the camera preview would look on the raspberry pi.
 
 # Source Cited
 

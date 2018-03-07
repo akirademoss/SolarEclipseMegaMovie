@@ -13,7 +13,7 @@ at UC Berkeley Space Sciences Lab
 
 ![gui fixed](https://user-images.githubusercontent.com/8731829/37075358-191913b8-2197-11e8-9bd4-fb16ce68e972.png)
 
-
+**Figure 1:** Event sequence necessary to successfully operate the solar eclipse camera.  Note that we purposely disable buttons in order to ensure that the user operates the camera in proper sequence.  The camera preview and quit buttons are both executable at any time, however Take GPS, Compute Contact Times, and Time Preciscion must be executed sequentially.  Additionally, the user will want to use the camera preview feature within 5 to 10 minutes of capturing the eclipse to ensure that the sun is in the frame of view of the camera. 
 
 This software was developed for a raspberry pi 3, and picamera module v2.1 
 to automatatize photography of the total solar eclipse of August 21, 2017.

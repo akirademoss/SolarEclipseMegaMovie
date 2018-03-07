@@ -7,7 +7,7 @@ at UC Berkeley Space Sciences Lab
 <p align="center">centered # text</p>
 <p align="center">
   <header>
-  <h3r>/# Hardware:</h3><hr>
+  <h>/# Hardware:</h><hr>
      </header>
   <a href="#">Link 1</a> |
   <a href="#">Link 2</a> |

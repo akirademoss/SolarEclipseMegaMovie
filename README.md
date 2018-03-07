@@ -25,17 +25,20 @@ of the solar corona from volunteers and amateur astronomers.
 * Reminder message to remove filter 5 seconds before and after totality 
 * Camera capture rate at least 1 FPS
 
+
 # Required Hardware 
 
 ![setup1](https://user-images.githubusercontent.com/8731829/37075790-1dd0c070-2199-11e8-943d-86da87dd7944.png)
 
 **Figure 1:** The basic required components for the raspberry pi powered solar eclipse camera set-up consists of an Uptronics GPS Expansion Board, Raspberry Pi 3, Picamera v2.1 module, 3D printed adapter for camera lense, hdmi + monitor + keyboard + mouse, tripod, and mounting platform.  In this instance, we used a set-up that mounted the raspberry pi and GPS hat between two pieces of wood.
 
+
 # GUI Flowchart
 
 ![gui fixed](https://user-images.githubusercontent.com/8731829/37075358-191913b8-2197-11e8-9bd4-fb16ce68e972.png)
 
 **Figure 2:** Event sequence necessary to successfully operate the solar eclipse camera.  Note that we purposely disable buttons in order to ensure that the user operates the camera in proper sequence.  The camera preview and quit buttons are both executable at any time, however Take GPS, Compute Contact Times, and Time Preciscion must be executed sequentially.  Additionally, the user will want to use the camera preview feature within 5 to 10 minutes of capturing the eclipse to ensure that the sun is in the frame of view of the camera. 
+
 
 # Take GPS 
 
@@ -47,11 +50,6 @@ of the solar corona from volunteers and amateur astronomers.
 
 **Figure 4:** After collecting GPS positions and storing to .dat files for 1 minute, the program then computes the average of the last 20 saved positions to complete the calibration.  
 
-# Contact Times
-
-![jitter format2](https://user-images.githubusercontent.com/8731829/37075221-6ab57f00-2196-11e8-8a54-be2d6ba191fd.JPG)
-
-**Figure 5:**
 
 # Time Precision
 
@@ -59,6 +57,12 @@ of the solar corona from volunteers and amateur astronomers.
 
 **Figure 6:**  After GPS is taken, it is possible to view the Time Pr
 
+
+# Contact Times
+
+![jitter format2](https://user-images.githubusercontent.com/8731829/37075221-6ab57f00-2196-11e8-8a54-be2d6ba191fd.JPG)
+
+**Figure 5:**
 
 
 # Take Eclipse

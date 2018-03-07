@@ -6,7 +6,7 @@ at UC Berkeley Space Sciences Lab
 <h3 style="text-align: center;" markdown="1">This is a level 3 heading.</h3>
 
 <p align="center">
-  <h3>Some Links:</h3><h3r>
+  <b>Some Links:</b><br>
   <a href="#">Link 1</a> |
   <a href="#">Link 2</a> |
   <a href="#">Link 3</a>

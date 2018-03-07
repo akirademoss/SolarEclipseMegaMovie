@@ -29,7 +29,17 @@ of the solar corona from volunteers and amateur astronomers.
 Note that the images displayed in this README are from the 1st version of source code produced.  The source provided in this repository is the 2nd version of the code.  Upgrades include a second text display window that allows you to view the time precision and take eclipse status symultaneously.  Additionally formatting of datetime and exposure times during the Take Eclipse execution is improved to produce clarity for the user. [1] 
 
 # Required Hardware 
-Inline-style: 
+
+<p align="center">
+  <b>Some Links:</b><br>
+  <a href="#">Link 1</a> |
+  <a href="#">Link 2</a> |
+  <a href="#">Link 3</a>
+  <br><br>
+  <img src="https://user-images.githubusercontent.com/8731829/37075790-1dd0c070-2199-11e8-943d-86da87dd7944.png">
+</p>
+
+
 ![setup1](https://user-images.githubusercontent.com/8731829/37075790-1dd0c070-2199-11e8-943d-86da87dd7944.png)
 
 **Figure 1:** The basic required components for the raspberry pi powered solar eclipse camera set-up consists of an Uptronics GPS Expansion Board, Raspberry Pi 3, Picamera v2.1 module, 3D printed adapter for camera lense, hdmi + monitor + keyboard + mouse, tripod, and mounting platform.  In this instance, we used a set-up that mounted the raspberry pi and GPS hat between two pieces of wood.

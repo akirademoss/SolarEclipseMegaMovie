@@ -2,7 +2,7 @@
 This projected was funded by grant No. AGS-14612277 and conducted under PI 
 Juan Carlos Martinez Oliveroz and co-PI Laura Peticolas
 at UC Berkeley Space Sciences Lab
-<center>Centered text</center>
+
 <h3 style="text-align: center;" markdown="1">This is a level 3 heading.</h3>
 <p align="center">centered # text</p>
 <p align="center">

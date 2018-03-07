@@ -32,8 +32,8 @@ This README was created for the purpose of demonstrating the capabilities of the
 # Required Hardware 
 
 <p align="center">
-  <br># Required Hardware<br>
   <img src="https://user-images.githubusercontent.com/8731829/37075790-1dd0c070-2199-11e8-943d-86da87dd7944.png">
+   <br><br>
 </p>
 
 **Figure 1:** The basic required components for the raspberry pi powered solar eclipse camera set-up consists of an Uptronics GPS Expansion Board, Raspberry Pi 3, Picamera v2.1 module, 3D printed adapter for camera lense, hdmi + monitor + keyboard + mouse, tripod, and mounting platform.  In this instance, we used a set-up that mounted the raspberry pi and GPS hat between two pieces of wood.

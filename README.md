@@ -32,7 +32,7 @@ This README was created for the purpose of demonstrating the capabilities of the
 # Required Hardware 
 
 <p align="center">
-  <br><br>
+  <br># Required Hardware<br>
   <img src="https://user-images.githubusercontent.com/8731829/37075790-1dd0c070-2199-11e8-943d-86da87dd7944.png">
 </p>
 

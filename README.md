@@ -24,26 +24,26 @@ To view the images and access the database [please click this link](https://ecli
 ## Documentation Overview
 This documentation was created for the purpose of demonstrating the capabilities of the system.  Images displayed in this document are from the 1st version of source code produced.  The source provided in this repository is the 2nd version of the code.  Upgrades include a second text display window that allows you to view the time precision and take eclipse status symultaneously.  Additionally formatting of datetime and exposure times during the Take Eclipse execution is improved to produce clarity for the user. [1] 
 
-# Test Screen Demonstration
+## Test Screen Demonstration
 
 ![gui cam preview example](https://user-images.githubusercontent.com/8731829/37075741-d854f49e-2198-11e8-944d-91428cc92fed.png)
 
 **Figure 1:**  Example of what camera preview would display on the monitor. [2]
  
-# Required Hardware 
+## Required Hardware 
 ![setup1](https://user-images.githubusercontent.com/8731829/37075790-1dd0c070-2199-11e8-943d-86da87dd7944.png)
 
 **Figure 2:** The basic required components for the raspberry pi powered solar eclipse camera set-up consists of an Uptronics GPS Expansion Board, Raspberry Pi 3, Picamera v2.1 module, 3D printed adapter for camera lense, hdmi + monitor + keyboard + mouse, tripod, and mounting platform.  In this instance, we used a set-up that mounted the raspberry pi and GPS hat between two pieces of wood.
 
 
-# GUI Flowchart
+## GUI Flowchart
 
 ![gui fixed](https://user-images.githubusercontent.com/8731829/37075358-191913b8-2197-11e8-9bd4-fb16ce68e972.png)
 
 **Figure 3:** Event sequence necessary to successfully operate the solar eclipse camera.  Note that we purposely disable buttons in order to ensure that the user operates the camera in proper sequence.  The camera preview and quit buttons are both executable at any time, however Take GPS, Compute Contact Times, and Time Preciscion must be executed sequentially.  Additionally, the user will want to use the camera preview feature within 5 to 10 minutes of capturing the eclipse to ensure that the sun is in the frame of view of the camera. 
 
 
-# Take GPS 
+## Take GPS 
 
 ## Saving Position Data
 
@@ -57,21 +57,21 @@ This documentation was created for the purpose of demonstrating the capabilities
 **Figure 5:** After collecting GPS positions and storing to .dat files for 1 minute, the program then computes the average of the last 20 saved positions to complete the calibration.  
 
 
-# Contact Times
+## Contact Times
 
 ![times precision data](https://user-images.githubusercontent.com/8731829/37077481-cf12c020-21a0-11e8-9a83-197f9d1699d0.JPG)
 
 **Figure 6:**  After GPS is calibrated, we use the calibrated postion to compute the contact times of the total solar eclipse.  Note that in this example for the 2017 eclipse, totality did not occur.  This sample was used for testing purposes.  To simulate the eclipse, we plugged in positions that were located along the path of totality, and manually configured the clock time used to automate image capture sequences.
 
 
-# Time Precision
+## Time Precision
 
 ![jitter format2](https://user-images.githubusercontent.com/8731829/37075221-6ab57f00-2196-11e8-8a54-be2d6ba191fd.JPG)
 
 **Figure 7:**  Here we are displaying the clock jitter.  The idea behind this function is to encourage the user to set-up early, as the general trend is that the jitter will decrease with time as the clock signal synchronizes with the sattelite clock.
 
 
-# Take Eclipse
+## Take Eclipse
 
 ![sleeping](https://user-images.githubusercontent.com/8731829/37075272-a948524c-2196-11e8-9ee1-b6b89bd03309.JPG)
 
@@ -99,7 +99,7 @@ This documentation was created for the purpose of demonstrating the capabilities
 
 
 
-# Footnotes
+## Footnotes
 
 [1] In the Bracketed Image Capture Sequence subsection of Take Eclipse the expose time above the image file captured is displaying only the denominator of the exposure time.  Dividing 1 by the value printed is what the program is actually doing. 
 
@@ -110,7 +110,7 @@ This documentation was created for the purpose of demonstrating the capabilities
 [4] Regaurding the first footnote, the intended image capture sequence would be 1/125, 1/60, 1/30, 1/2, 1.  This will produce images that gradually become brighter.
 
 
-# Credits 
+## Credits 
 
 - [Akira Demoss](https://github.com/akirademoss)
 - Juan Carlos Martínez Oliveros

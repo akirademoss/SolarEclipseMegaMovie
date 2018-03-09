@@ -21,7 +21,7 @@ To view the images and access the database [please click this link](https://ecli
 * Reminder message to remove filter 5 seconds before and after totality 
 * Camera capture rate at least 1 FPS
 
-## README Contents
+## Documentation Overview
 This documentation was created for the purpose of demonstrating the capabilities of the system.  Images displayed in this document are from the 1st version of source code produced.  The source provided in this repository is the 2nd version of the code.  Upgrades include a second text display window that allows you to view the time precision and take eclipse status symultaneously.  Additionally formatting of datetime and exposure times during the Take Eclipse execution is improved to produce clarity for the user. [1] 
 
 # Test Screen Demonstration

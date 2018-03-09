@@ -54,6 +54,7 @@ This includes sequence of events to be completed to successfully operate the sol
 ###### **Figure 4:** GPS Data Acquisition 
 During the calibration, the GPS module acquires signal and stores locations to a .dat file.  Multithreading was implemented to resolve the to enable real time text updates to the GUI, and event handling was implemented to resolve prevent the program from crashing.  See line 197 of megamovie_Akira_Simulate_Eclipse.py for an example of Event Handling in Qt.  The line reads QtCore.QCoreApplication.processEvents(). This function tells Qt to process any pending events, and then returns control to the caller.[3]
 
+
 **Performing the Calibration Calculation**
 
 ![gps_calibration2](https://user-images.githubusercontent.com/8731829/37075215-625be93e-2196-11e8-9b6a-83c22b7b86ad.JPG)

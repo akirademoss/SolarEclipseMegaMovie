@@ -9,7 +9,7 @@ which traversed accross the United States. This event provided a unique
 scientific and educational opportunity to study the solar corona by solar 
 physicists, and citizen scientists alike.
 
-To view the images and access the database please visit the following [Link](https://eclipsemega.movie/)
+To view the images and access the database [please click this link](https://eclipsemega.movie/)
 
 **Software objectives:**  
 * Easy to use Graphical User Interface

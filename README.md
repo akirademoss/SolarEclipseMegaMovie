@@ -94,8 +94,7 @@ Once the indicated time is reached, the program automates the camera to take pho
 
 ![burst movie reel](https://user-images.githubusercontent.com/8731829/37075425-5de2974e-2197-11e8-8cc4-d9dabd74d475.png)
 
-###### **Figure 10:**  Rapid fixed exposure burst
-Sample of images captured during a test at Charbot Space Center in Oakland, California.  Note that actual exposure times in this photo may be different, this is simply for demonstration purposes.  Actual images are saved in RAW format.
+###### **Figure 10:**  Rapid fixed exposure burst.  Sample of images captured during a test at Charbot Space Center in Oakland, California.  Note that actual exposure times in this photo may be different, this is simply for demonstration purposes.  Actual images are saved in RAW format.
 
 **Bracketed Capture Sequence**
 

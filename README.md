@@ -1,19 +1,15 @@
 # Solar Eclipse MegaMovie
-This projected was funded by grant No. AGS-14612277 and conducted under PI 
-Juan Carlos Martinez Oliveroz and co-PI Laura Peticolas
-at UC Berkeley Space Sciences Lab
+Research for this project was funded by grant No. AGS-14612277 and conducted under co-PIs 
+Juan Carlos Martinez Oliveroz and Laura Peticolas
+at UC Berkeley Space Sciences Lab.
 
-This software was developed for a raspberry pi 3, and picamera module v2.1 
-to automatatize photography of the total solar eclipse of August 21, 2017.
-The total solar eclipse 
-of August 21, 2017 crossing 
-The United States provided a unique scientific and educational 
-opportunity to study the solar 
-corona by solar physicists and 
-citizen scientists.
+This software was developed for raspberry pi 3, and picamera module v2.1 
+to automatize photography for the total solar eclipse of August 21, 2017
+which traversed accross the United States. This event provided a unique 
+scientific and educational opportunity to study the solar corona by solar 
+physicists, and citizen scientists alike.
 
-Eclipse Megamovie project crowdsources scientifically valuable images 
-of the solar corona from volunteers and amateur astronomers.
+To view the images and access the database please visit the following [Link](https://eclipsemega.movie/)
 
 **Software objectives:**  
 * Easy to use Graphical User Interface

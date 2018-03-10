@@ -95,7 +95,8 @@ Once the indicated time is reached, the program automates the camera to take pho
 
 ![burst movie reel](https://user-images.githubusercontent.com/8731829/37075425-5de2974e-2197-11e8-8cc4-d9dabd74d475.png)
 
-###### **Figure 10:**  Rapid fixed exposure burst.  Sample of images captured during a test at Charbot Space Center in Oakland, California.  Note that actual exposure times in this photo may be different, this is simply for demonstration purposes.  Actual images are saved in RAW format.
+###### **Figure 10:**  Rapid fixed exposure burst.  
+Sample of images captured during a test at Charbot Space Center in Oakland, California.  Note that actual exposure times in this photo may be different, this is simply for demonstration purposes.  Actual images are saved in RAW format.
 
 **Bracketed Capture Sequence**
 
@@ -106,7 +107,8 @@ Once the 2nd contact time is reached, the program automates the camera to take p
 
 ![bracketing movie reel](https://user-images.githubusercontent.com/8731829/37075440-68ff1df0-2197-11e8-9987-70d1f52f7e7e.png)
 
-###### **Figure 12:**  Demonstration of what the Bracked image sequence will produce.  The idea is to capture the full dynamic range by allowing varying amounts of light, and later forming a composite image to produce an image similar to what the eclipse would look like in person.
+###### **Figure 12:**  Bracketed Photo Reel
+Demonstration of the Bracketed image sequence.  Bracketing exposure times enables the photographs to be recompiled into a composite image that will accurately to capture the full dynamic range and results in an image that looks similar to one would see in person.
 
 
 

@@ -90,7 +90,7 @@ The user will want to use the camera preview feature within 5 to 10 minutes of c
 
 ![take-out-filter](https://user-images.githubusercontent.com/8731829/37075310-e4f65a50-2196-11e8-81f2-34fe3f09744e.jpg)
 
-###### **Figure 9:** 
+###### **Figure 9:** Fixed burst exposure times
 Once the indicated time is reached, the program automates the camera to take photographs in a burst capture sequence at fixed exposure times of 1/1000 seconds.  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.
 
 ![burst movie reel](https://user-images.githubusercontent.com/8731829/37075425-5de2974e-2197-11e8-8cc4-d9dabd74d475.png)
@@ -102,7 +102,7 @@ Sample of images captured during a test at Charbot Space Center in Oakland, Cali
 
 ![aeb](https://user-images.githubusercontent.com/8731829/37075338-02ffb406-2197-11e8-9e3b-e85340b110a7.JPG)
 
-###### **Figure 11:**  Bracketed exposures
+###### **Figure 11:**  Bracketed exposure times
 Once the 2nd contact time is reached, the program automates the camera to take photographs in a bracketed capture sequence at iterated exposure rates.  In the GUI image, the print out indicates images being taken at exposure times of 1/125, 1/60, 1/30, 1, and 1/2 seconds.[4]  The program saves the image as the datetime value, and prints to the screen for each image captured.  Additionally, 5 seconds before totality a notification to remove the filter will appear on the screen.  The screen will also send a notification 5 before the 3rd conact time to notify the user to put the filter back on, as it will finally take photographs in the burst capture sequence for 20 more seconds.
 
 ![bracketing movie reel](https://user-images.githubusercontent.com/8731829/37075440-68ff1df0-2197-11e8-9987-70d1f52f7e7e.png)
